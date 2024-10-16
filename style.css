@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Latar belakang merah muda */
+    margin: 0;
+    padding: 0;
+}
+
+.judul {
+    background-color: #c62828; /* Warna merah gelap */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px 5px 0 0; /* Rounded corners */
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+}
+
+h2 {
+    text-align: center;
+    color: #b71c1c; /* Warna merah sedang */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Menebalkan teks label */
+    color: #c62828; /* Warna merah gelap untuk label */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px; /* Menambah padding untuk input */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners untuk input */
+}
+
+.btn, .btn-primary {
+    padding: 10px 20px;
+    background-color: #e53935; /* Warna merah cerah */
+    border: none;
+    color: white;
+    border-radius: 5px; /* Rounded corners untuk tombol */
+    cursor: pointer;
+}
+
+.btn:hover, .btn-primary:hover {
+    background-color: #d32f2f; /* Warna merah gelap saat hover */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table th {
+    background-color: #c62828; /* Warna merah untuk header tabel */
+    color: white; /* Teks putih untuk header */
+}
+
+.edit {
+    color: #f57c00; /* Warna oranye untuk edit */
+    text-decoration: none;
+}
+
+.edit:hover {
+    text-decoration: underline;
+}
+
+.hapus {
+    color: #d32f2f; /* Warna merah untuk hapus */
+    text-decoration: none;
+}
+
+.hapus:hover {
+    text-decoration: underline;
+}
+
+.link a {
+    color: #c62828; /* Warna merah untuk link */
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
